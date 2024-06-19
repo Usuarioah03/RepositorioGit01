@@ -1,0 +1,87 @@
+/* .mrules, .srules{
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+  
+}
+
+article{
+    border: 1px solid #222;
+    justify-content: flex-start;
+    text-align: justify;
+    margin: 25px;
+    padding: 10px;
+    list-style: inside;
+}
+li{
+    text-indent: 25px;
+}
+ */
+ 
+ body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     margin: 0;
+     padding: 0;
+ }
+
+ .srules {
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: #fff;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+  ;
+ }
+
+ .title {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ article {
+     margin-bottom: 20px;
+     padding-left: 20px;
+ }
+
+ h3 {
+     color: #336699;
+ }
+
+ ol, ul {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding-left: 20px;
+ }
+
+ li {
+     margin-bottom: 5px;
+     list-style: none;
+ }
+
+ p {
+     margin-bottom: 10px;
+ }
+ footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f7df2e; 
+    border: 1px solid #f7df2e;
+    border-radius: 100px;
+}
+.questions{
+width: 100%;
+text-align: center;
+}
+.tmain{
+    justify-content: center;
+}
+.atable{
+    margin-left: 230px;
+}
+.coachtext{
+    list-style: circle;
+    margin-left: 50px;
+}

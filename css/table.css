@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.underline{
+    text-decoration: underline;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,th{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(64 194 51 / 79%);
+}
+
+tfoot tr:first-child{
+    background-color: rgba(51, 130, 194, 0.63);
+}
+
+tbody tr:nth-child(2n +1){
+    background-color: #f5f5f5b7;
+}
+
+tbody tr:nth-child(2n){
+  background-color: #f7df2e;  
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f7df2e; 
+    border: 1px solid #f7df2e;
+    border-radius: 100px;
+}
+.questions{
+width: 100%;
+text-align: center;
+}
+.tmain{
+    justify-content: center;
+}
+.atable{
+    margin-left: 230px;
+}
