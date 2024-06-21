@@ -1,62 +1,3 @@
-
-/* .fsection {
-    border: 2px solid black; 
-     padding: 20px; 
-    background-color: #f3f3f3; 
-    gap: 10px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.title {
-    text-align: center; 
-    margin-bottom: 20px; 
-}
-
-form {
-    width: 100%; 
-    max-width: 400px;
-}
-
-fieldset {
-    margin-bottom: 20px;
-}
-
-label {
-    margin-bottom: 8px; 
-    
-}
-
-input[type="text"],
-input[type="date"]
- {
-    width: 100%;  
-     padding: 8px; 
-    margin-bottom: 12px;
-    box-sizing: border-box;
-}
-
-button[type="submit"] {
-    padding: 10px 20px; 
-    background-color: #007bff; 
-    color: white; 
-    border: none; 
-    cursor: pointer; 
-    font-size: 16px;
-    margin-top: 20px; 
-}
-
-button[type="submit"]:hover {
-    background-color: #0056b3; 
-}
-
-  */
-
-  /* Estilos actualizados según tus preferencias */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -170,14 +111,17 @@ button[type="submit"]:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
   }
   .labelsdiv2{
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
   }
   .submit{
     
     display: flex;
     justify-content: space-around;
   }
+ 

@@ -39,6 +39,12 @@ nav a{
     font-size: 20px;
     font-family: cursive
 }
+.ad{
+    text-decoration: none;
+}
+.ad:visited{
+    color: #222;
+}
 main{
     display: flex;
     width: 100%;
@@ -66,7 +72,17 @@ main img{
 main section{
 
     margin-left: 50px;
-    width: 68%;
+    width: 100%;
+}
+.absection{
+    margin-left: 50px;
+    width: 75%;
+}
+.hisection{
+    width: 75%;
+}
+.contactsection{
+    width: 75%;
 }
 article{
    padding: 15px;
@@ -109,7 +125,12 @@ footer{
     height: 14vh;
   }
 
-  
+  .gender{
+    display: flex;
+    flex-direction: column;
+    margin-top:0;
+}
+
   .atable table, .atable th, .atable td {
     border: 1px solid #ddd; 
     border-collapse: collapse; 
@@ -119,13 +140,19 @@ footer{
   .atable th {
     background-color: #f2f2f2; /
   }
-
-}
-
-@media (max-width: 425px) {
-    .atable table {
-      font-size: 13px; 
-    }
- 
+  .atable table {
+    font-size: 13px; 
   }
+/* .lastnamelabel{
+  margin-top: 17px;
+} */
+ .grade{
+    display: flex;
+    flex-wrap: wrap;
+}
+  }
+
+
+
+
   
