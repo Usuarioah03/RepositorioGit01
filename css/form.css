@@ -1,0 +1,183 @@
+
+/* .fsection {
+    border: 2px solid black; 
+     padding: 20px; 
+    background-color: #f3f3f3; 
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.title {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+form {
+    width: 100%; 
+    max-width: 400px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px; 
+    
+}
+
+input[type="text"],
+input[type="date"]
+ {
+    width: 100%;  
+     padding: 8px; 
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+    margin-top: 20px; 
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+  */
+
+  /* Estilos actualizados según tus preferencias */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .formsection {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  .fsection {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .namelabel{
+    width: 50%;
+  }
+  .lastnamelabel{
+    width: 50%;
+  }
+  .lastnameinput{
+    margin-left: 20px;
+  }
+  .labellargo{
+    width: 100%;
+  }
+  .inputlargo{
+    width: 70%;
+  }
+  .citylabel{
+    width: 50%;
+  }
+ 
+  .ziplabel{
+    width: 50%;
+  }
+  .zipinput{
+    margin-left: 20px;
+  }
+ .datelabel{
+    width: 50%;
+  }
+ 
+  input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .gender{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .grade{
+    margin-top: 10px;
+  }
+  .labelsdiv1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .labelsdiv2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .submit{
+    
+    display: flex;
+    justify-content: space-around;
+  }

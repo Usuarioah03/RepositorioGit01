@@ -47,5 +47,17 @@ text-align: center;
     justify-content: center;
 }
 .atable{
-    margin-left: 230px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+.mapas{
+    display: contents;
+}
+.h2mapas{
+    width: 100%;
+    text-align: center;
 }
